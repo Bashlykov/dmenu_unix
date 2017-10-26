@@ -34,14 +34,6 @@ void frame(char *item)
     wprintf(L"┘");
 }
 
-#ifdef __unix__
-#define UP 65
-#define DOWN 66
-#elif
-#define UP 72
-#define DOWN 80
-#endif
-
 /*** SHOWS THE CURRENT ITEM IN THE FRAME AND ALL OTHER ITEMS***/
 unsigned int  menu_items(  char *item[],
                         unsigned int cur_item,
