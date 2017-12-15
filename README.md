@@ -1,3 +1,3 @@
 # dmenu_unix
-Dynamic menu for console for UNIX system.
+Dynamic menu for UNIX console.
 
